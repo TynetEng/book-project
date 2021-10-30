@@ -1,0 +1,11 @@
+.nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+}

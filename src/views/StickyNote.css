@@ -1,0 +1,74 @@
+.fill{
+    display: flex;
+    margin: auto !important;
+    width: 80%;
+}
+.parent{
+    width: 30%;
+    background-color: rgb(75, 73, 73);   
+    padding: 5px;
+    margin-top: 20px;
+}
+.addNote{
+    margin-left: 5px;
+    background-color: rgb(75, 73, 73);
+    width: 25%;
+    display: none;
+    margin-top: 30px;
+}
+.addNote-body{
+    display: block;
+    width: 100%;
+}
+.headie{
+    color: lightgray;
+    padding-top: 5px;
+}
+.nave{
+    display: flex;
+    justify-content: space-between;
+}
+.navie{
+    background-color: goldenrod;
+    width: 100% !important;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+textarea{
+    border: 0px;
+    background-color: transparent;
+    padding: 5px;
+    outline: 0px;
+    font-size: 10px !important;
+    color: lightgray;
+}
+.bottom{
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid lightgray;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+}
+button{
+    border: 0px;
+    background-color: transparent;
+    color: lightgray;
+}
+.search{
+    width: 100%;
+    background-color: rgb(100, 99, 99);
+    color: lightgray;
+}
+input{
+    background-color: transparent;
+    border: 0px;
+    width: 85%;
+    padding: 0px 5px;
+}
+input::placeholder{
+    color: lightgray;
+    font-size: 12px;
+}
